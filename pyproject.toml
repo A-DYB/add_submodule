@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_package"
+authors = [
+    {name = "Adrian", email = "adrian@gmail.com"},
+]
+description = "My package description"
+readme = "README.rst"
+requires-python = ">=3.8"
+keywords = ["one", "two"]
